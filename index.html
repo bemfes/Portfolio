@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/preloader.css" />
     <link rel="stylesheet" href="css/style.css">
+    <link fetchpriority="high" rel="preload" href="fonts/Unbounded-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link fetchpriority="high" rel="preload" href="fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link fetchpriority="high" rel="preload" href="fonts/Inter-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
     <script defer src="js/main.js"></script>
     <title>Верстка сайта на заказ</title>
     <meta name="description" content="С помощью современных технологий превратить вашу идею в сайт легко и просто! Ваш сайт будет не только красивым, но и удобным и доступным для пользователей">
@@ -104,17 +107,17 @@
         <div class="techs">
             <p tabindex="0" class="text-1 techs__text">Используемые технологии:</p>
             <div class="techs__items">
-                <img tabindex="0" class="techs__pics techs__pics_html" src="icons/html.svg" alt="html">
-                <img tabindex="0" class="techs__pics techs__pics_css" src="icons/css.svg" alt="css">
-                <img tabindex="0" class="techs__pics techs__pics_sass" src="icons/sass.svg" alt="sass">
-                <img tabindex="0" class="techs__pics techs__pics_js" src="icons/js.svg" alt="javascript">
-                <img tabindex="0" class="techs__pics techs__pics_wordpress" src="icons/wordpress.svg" alt="wordpress">
-                <img tabindex="0" class="techs__pics techs__pics_react" src="icons/react.svg" alt="react">
+                <img loading="lazy" tabindex="0" class="techs__pics techs__pics_html" src="icons/html.svg" alt="html">
+                <img loading="lazy" tabindex="0" class="techs__pics techs__pics_css" src="icons/css.svg" alt="css">
+                <img loading="lazy" tabindex="0" class="techs__pics techs__pics_sass" src="icons/sass.svg" alt="sass">
+                <img loading="lazy" tabindex="0" class="techs__pics techs__pics_js" src="icons/js.svg" alt="javascript">
+                <img loading="lazy" tabindex="0" class="techs__pics techs__pics_wordpress" src="icons/wordpress.svg" alt="wordpress">
+                <img loading="lazy" tabindex="0" class="techs__pics techs__pics_react" src="icons/react.svg" alt="react">
             </div>
             <picture class="picture-gradient">
                 <source srcset="images/human-small.avif" type="image/avif">
                 <source srcset="images/human-small.webp" type="image/webp">
-                <img tabindex="0" class="second-sec__img" src="images/human-small.png" alt="Анастасия Устин, занимается разработкой сайтов на заказ">
+                <img loading="lazy" tabindex="0" class="second-sec__img" src="images/human-small.png" alt="Анастасия Устин, занимается разработкой сайтов на заказ">
             </picture>
             
         </div>
@@ -126,7 +129,7 @@
                     <picture>
                         <source srcset="images/neofi.avif" type="image/avif">
                         <source srcset="images/neofi.webp" type="image/webp">
-                        <img  tabindex="0" class="works__img" src="images/neofi.png" alt="лендинг Neofi">
+                        <img loading="lazy"  tabindex="0" class="works__img" src="images/neofi.png" alt="лендинг Neofi">
                     </picture>
                     <div class="works__desc">
                         <p tabindex="0" class="title-3 works__title">Лендинг NeoFi</p>
@@ -137,7 +140,7 @@
                     <picture>
                         <source srcset="images/vrnas.avif" type="image/avif">
                         <source srcset="images/vrnas.webp" type="image/webp">
-                        <img  tabindex="0" class="works__img" src="images/vrnas.png" alt="многостраничный сайт Vrnas">
+                        <img loading="lazy"  tabindex="0" class="works__img" src="images/vrnas.png" alt="многостраничный сайт Vrnas">
                     </picture>
                     <div class="works__desc">
                         <p tabindex="0" class="title-3 works__title">Многостраничный сайт Vrnas</p>
@@ -148,7 +151,7 @@
                     <picture>
                         <source srcset="images/eden.avif" type="image/avif">
                         <source srcset="images/eden.webp" type="image/webp">
-                        <img tabindex="0" class="works__img" src="images/eden.png" alt="лендинг EdenTravel">
+                        <img loading="lazy" tabindex="0" class="works__img" src="images/eden.png" alt="лендинг EdenTravel">
                     </picture>
                     <div class="works__desc">
                         <p tabindex="0" class="title-3 works__title">Лендинг EdenTravel</p>
@@ -159,7 +162,7 @@
                     <picture>
                         <source srcset="images/finsweet.avif" type="image/avif">
                         <source srcset="images/finsweet.webp" type="image/webp">
-                        <img tabindex="0" class="works__img" src="images/finsweet.png" alt="блог FinSweet">
+                        <img loading="lazy" tabindex="0" class="works__img" src="images/finsweet.png" alt="блог FinSweet">
                     </picture>
                     <div class="works__desc">
                         <p tabindex="0" class="title-3 works__title">Блог Finsweet</p>
@@ -170,7 +173,7 @@
                     <picture>
                         <source srcset="images/beauty.avif" type="image/avif">
                         <source srcset="images/beauty.webp" type="image/webp">
-                        <img tabindex="0" class="works__img" src="images/beauty.png" alt="лендинг LuxDerm">
+                        <img loading="lazy" tabindex="0" class="works__img" src="images/beauty.png" alt="лендинг LuxDerm">
                     </picture>
                     <div class="works__desc">
                         <p tabindex="0" class="title-3 works__title">Лендинг LuxDerm</p>
@@ -181,7 +184,7 @@
                     <picture>
                         <source srcset="images/lir.avif" type="image/avif">
                         <source srcset="images/lir.webp" type="image/webp">
-                        <img tabindex="0" class="works__img" src="images/lir.png" alt="лендинг Lir">
+                        <img loading="lazy" tabindex="0" class="works__img" src="images/lir.png" alt="лендинг Lir">
                     </picture>
                     <div class="works__desc">
                         <p tabindex="0" class="title-3 works__title">Лендинг Lir</p>
@@ -219,7 +222,7 @@
                             <source srcset="images/landing-pages.png" type="image/png" media="(max-width: 430px)">
                             <source srcset="images/landing-page.avif" type="image/avif">
                             <source srcset="images/landing-page.webp" type="image/webp">
-                            <img class="offers__img" src="images/landing-page.png" alt="страница лендинга">
+                            <img loading="lazy" class="offers__img" src="images/landing-page.png" alt="страница лендинга">
                         </picture>
                     </div>
                 </div>
@@ -234,7 +237,7 @@
                         <picture>
                             <source srcset="images/two-pages.avif" type="image/avif">
                             <source srcset="images/two-pages.webp" type="image/webp">
-                            <img class="offers__img offers__img_two" src="images/two-pages.png" alt="страница лендинга">
+                            <img loading="lazy" class="offers__img offers__img_two" src="images/two-pages.png" alt="страница лендинга">
                         </picture>
                     </div>
                 </div>
@@ -255,7 +258,7 @@
                         <picture>
                             <source srcset="images/blog-pages.avif" type="image/avif">
                             <source srcset="images/blog-pages.webp" type="image/webp">
-                            <img class="offers__img offers__img_blog" src="images/blog-pages.png" alt="страница лендинга">
+                            <img loading="lazy" class="offers__img offers__img_blog" src="images/blog-pages.png" alt="страница лендинга">
                         </picture>
                     </div>
                 </div>
@@ -270,7 +273,7 @@
                         <picture>
                             <source srcset="images/wordpress-pages.avif" type="image/avif">
                             <source srcset="images/wordpress-pages.webp" type="image/webp">
-                            <img class="offers__img offers__img_wordpress" src="images/wordpress-pages.png" alt="страница лендинга">
+                            <img loading="lazy" class="offers__img offers__img_wordpress" src="images/wordpress-pages.png" alt="страница лендинга">
                         </picture>
                     </div>
                 </div>
@@ -290,8 +293,8 @@
             <p tabindex="0" class="text-1 text-1_bold info__text">Связаться со мной:</p>
             <div class="info__links">
                 <p tabindex="0" class="text-1 info__link info__link_footer">anastasiia_ustin@mail.ru</p>
-                <a class="text-1 info__link" target="_blank" href="https://t.me/anastasiia_ustin"><img src="icons/telegram.svg" alt="телеграм"></a>
-                <a class="text-1 info__link" target="_blank" href="https://vk.com/ustinachi"><img src="icons/vk.svg" alt="вконтакте"></a>
+                <a class="text-1 info__link" target="_blank" href="https://t.me/anastasiia_ustin"><img loading="lazy" src="icons/telegram.svg" alt="телеграм"></a>
+                <a class="text-1 info__link" target="_blank" href="https://vk.com/ustinachi"><img loading="lazy" src="icons/vk.svg" alt="вконтакте"></a>
             </div>
         </div>
     </footer>
