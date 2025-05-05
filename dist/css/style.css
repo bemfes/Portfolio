@@ -119,6 +119,11 @@ ul {
   width: 80%;
   margin: 0 auto;
 }
+@media (min-width: 1600px) {
+  .container {
+    width: 1250px;
+  }
+}
 @media (max-width: 991px) {
   .container {
     width: 90%;
