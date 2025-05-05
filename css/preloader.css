@@ -59,10 +59,10 @@
     .preloader__circle {
       width: 5rem;
       height: 5rem;
-      border-left: 0.5rem solid rgb(51, 51, 51);
-      border-right: 0.5rem solid rgb(51, 51, 51);
-      border-top: 0.5rem solid rgb(51, 51, 51);
-      border-bottom: 0.5rem solid rgb(23, 195, 178);
+      border-left: 0.5rem solid #00FFEA;
+      border-right: 0.5rem solid #00FFEA;
+      border-top: 0.5rem solid #00FFEA;
+      border-bottom: 0.5rem solid black;
     }
   }  
 @keyframes rotation {
